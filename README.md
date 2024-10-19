@@ -1,4 +1,5 @@
 # Web Development Projects
-Creator: Pratibha Maurya
-Techincal Approach
-HTML,CSS
+Creator: Pratibha Maurya<br>
+Techincal Approach<br>
+HTML,CSS,Java Script
+
