@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    overflow: hidden;
+}
+
+.header{
+    justify-content: space-between;
+    height: 10vh;
+    background-color:rgba(10, 8, 8, 0.619);
+}
+.header > *{
+    padding: 15px;
+}
+.btn-2 button{
+    font-family: sans-serif ;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgba(10, 8, 8, 0.619);
+    border: none;
+    width: 100px;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    
+}
+.bgBox-1{
+    padding-top: 15px;
+    text-align: center;
+    width: 50px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #121212d3;
+   color: white;
+  
+}
+.search-container button{
+   width: 500px;
+   height: 45px;
+   border-radius: 20px;
+   background-color: #121212;
+   border: 2px solid rgba(245, 245, 245, 0.315);;
+   padding: 15px;
+   color: rgba(245, 245, 245, 0.536);
+   font-size: 18px;
+   margin-left: 10px;
+}
+.container{
+       height: 80vh;
+       padding-bottom: 2px;
+}
+
+ .left{
+    width: 25vw;
+    padding:5px ;
+    height: 525px;
+    margin-bottom: 5px;
+ }
+ .right{
+    width: 1100px;
+    height: 500px;
+    margin-bottom: 5px;
+   
+ }
+ 
+ 
+ .home ul  li {
+       display: flex;
+          width: 25px;
+         gap: 15px;
+        list-style: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        
+ }
+
+ .home ul  li:hover{
+    text-decoration: underline;
+ }
+
+ .library-logo {
+        font-family: Rubik ;
+        font-weight: 600;
+        font: 13px;
+        justify-content: space-between;
+        padding-left: 8px;
+       
+ }
+.plus {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+
+}
+ .library{
+    position: relative;
+    height: 330px;
+
+ }
+ .middle-box{
+    height: 140px;
+    overflow-y: scroll;
+ }
+ .mid {
+     height: 120px;
+     background-color:rgba(193, 189, 189, 0.134) ;
+     margin: 20px 5px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+     padding: 10px;
+ }
+ .btn-3{
+    font-weight: 800;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+ }
+ 
+.footer-left{
+    position: absolute;
+    bottom: 10px;
+    
+   
+    
+}
+.footer-left span{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 15px;  
+}
+.footer-left a{
+    color: rgba(193, 189, 189, 0.682);
+    text-decoration: none;
+}
+
+.btn-1{
+    margin-left: 65px;
+    width: 100px;
+    font-weight: 200;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 4px;
+    color: white;
+    background-color: #121212;
+    border:  .2px solid rgba(245, 245, 245, 0.536);
+
+}
+.footer-left i{
+    padding-right: 5px;
+}
+.btn-1:hover{
+    border: .2px solid white; 
+    
+}
+.right{
+    margin: 10px 0;
+    position: relative;
+    font-family: sans-serif;  
+
+}
+
+
+ .spotifyPlaylist{
+    padding: 16px;
+ }
+ .cardConatiner{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+ }
+ .card
+ {
+    font-family: sans-serif ;
+    font-size: 15px;
+    font-weight: 100;
+    width: 135px;
+    padding: 8px;
+    border-radius: 5px;
+    /* background-color: #1f1e1e; */
+    position: relative;
+ }
+ .card p{
+   
+    color: rgba(193, 189, 189, 0.565);
+ }
+ .card h2{
+   
+    color: rgb(219, 217, 217);
+ }
+
+ .card > *{
+    padding-top: 5px ;
+ }
+ .card img{
+    width: 100%;
+    object-fit: contain;
+ }
+ .play {
+    background-color: #1fdf64; /* Green background */
+    color: black;            /* White icon color */
+    border: none;            /* No border */
+    padding: 8px 15px;      /* Padding to make it look like a button */
+    border-radius: 50%;      /* Circular button */
+    font-size: 20px;         /* Icon size */
+    cursor: pointer;         /* Change cursor to pointer when hovered */
+    display: inline-flex;    /* Align icon in center */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 125px;
+    left: 110px;
+    opacity: 0;
+    transition: all .5s ease-out;
+    
+  }
+  
+  .play:hover {
+    opacity: 1;
+    top: 120px;
+  }
+  .card:hover{
+    background-color:#252525; 
+ 
+  }
+ 
+  .footer-right{
+    position: absolute;   
+}
+.bottom{
+    border-top: .5px solid rgba(245, 245, 245, 0.132) ;
+    width: 900px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-left: 16px;
+}
+.otherLinks {
+   width: 200px;
+   height: 150px;
+}
+.otherLinks a{
+    color: rgba(245, 245, 245, 0.536) ;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.otherLinks a:hover{
+    text-decoration: underline;
+}
+.bgBox-2{
+    padding-top: 12px;
+    text-align: center;
+    width: 45px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #5756563e;
+   color: white;
+  
+}
+.lower-part{
+    padding: 10px;
+    height: 45px;
+    margin: 1px 10px 10px 10px;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+}
+.lower-part p{
+    font-size: 18px;
+}
+.btn-4{
+  width: 200px;
+  height: 35px;
+  border-radius: 25px;
+  border: none;
+}
+

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="utility.css">
+</head>
+<body class="bg-black">
+   <div class="header bg-black flex"> 
+    <div class="logo invert">
+        <img src="logo.svg" alt="" width="120px">
+    </div>
+<div class="search-container flex">
+    <i class="fa-solid fa-house bgBox-1"></i>
+    <button class=" flex justify-spacebtw" aria-label="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+             What do you want to play?
+        <i class="fa-brands fa-bitbucket"></i>
+        </button>
+      </div>
+       <div class="btn-2 ">
+        <button style="color: rgba(245, 245, 245, 0.536);">Sign up</button>
+        <button style="background-color: white; color: black;"> Log in</button>
+       </div>
+    </div>
+    <div class="container flex bg-black">
+    <div class="left ">
+        <div class="home bg-gray rounded m-1 p-1 font-style">
+            <ul>
+                <li><i class="fa-solid fa-house" ></i>Home</li>
+                <li><i class="fa-solid fa-magnifying-glass"></i>Search</li>
+            </ul>
+           
+        </div>
+
+        <div class="library bg-gray rounded p-1  m-1">
+           <div class="library-logo flex items-center">
+            <div class="flex items-center"><i class="fa-solid fa-book"></i>
+            <p class="m-1"> Your Library</p></div>
+             <p class="plus">+</p>
+           </div>
+       
+           <div class="middle-box">
+            <div class="mid">
+                <h6 class="font-style m-1">Create your first playlist</h6>
+                <p class="font-style-para m-1">It's easy, we'll help you</p>
+                <button class="btn-3 m-1 font-style-para">Create Playlist</button>
+            </div>
+            <div class="mid">
+                <h6 class="font-style m-1">Let's find some podcasts to follow</h6>
+                <p class="font-style-para m-1">We'll Keep you updated on new episode</p>
+                <button class="btn-3 m-1 font-style-para">Browser Prodcast</button>
+            </div>
+           </div>
+        <div class="footer-left ">
+            <span class="m-2"><a href="https://www.spotify.com/jp/legal/">Legal</a></span>
+            <span class="m-2"><a href="https://www.spotify.com/jp/privacy/">Safety&PrivacyCenter</a></span>
+            <span class="m-2"><a href="https://www.spotify.com/jp/legal/privacy-policy/">PrivacyPolicy</a></span>
+            <span class="m-2"><a href="https://www.spotify.com/jp/legal/cookies-policy/">Cookies</a></span>
+            <span class="m-2"><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3">About Ads</a></span>
+            <span class="block"><a href="https://www.spotify.com/jp/accessibility/">Accessibility</a></span>
+            <span class="block"><a href="https://www.spotify.com/jp/legal/cookies-policy/">Cookies</a></span>
+            <button class="font-style btn-1"><i class="fa-solid fa-globe "></i>English</button>
+        </div>
+        </div>
+    </div>
+
+        <!-- Popular Artists -->
+        <div class="right  bg-gray rounded  scroll-y scroll-x ">
+           <div class="spotifyPlaylist">
+            <div class="flex justify-spacebtw pright">
+                <h2>Popular artists</h2>
+            <p>see all</p>
+            </div>
+            <div class="cardConatiner">
+                <div class="card bg-gray">
+                    <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="" style="border-radius: 50%;">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Pritam</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="card bg-gray">
+                    <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="" style="border-radius: 50%;">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>A.R.Rahaman</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="card bg-gray">
+                    <img src="	https://i.scdn.co/image/ab67616100005174bd6fbc7d0973cc33940781ad" alt="" style="border-radius: 50%;">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Sachin-Jigar</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="card bg-gray">
+                    <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="" style="width: 130px; height: 130px;object-fit: cover; border-radius: 50%;">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Arjit Singh</h2>
+                    <p>Artist</p>
+                </div>
+                
+                <div class="card bg-gray">
+                    <img src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843" alt="" style="width: 130px; height: 130px;object-fit: cover; border-radius: 50%;" > 
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Anirudh Racichander</h2>
+                    <p>Artist</p>
+                </div>
+                <div class="card bg-gray">
+                    <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="" style="border-radius: 50%;"> 
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Atif Aslam</h2>
+                    <p>Artist</p>
+                </div>
+            </div>
+           </div>
+           <!-- Popular Albums -->
+           <div class="spotifyPlaylist">
+            <div class="flex justify-spacebtw pright">
+                <h2>Popular Albums</h2>
+            <p>see all</p>
+            </div>
+            <div class="cardConatiner">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>GLORY</h2>
+                    <p>Yo Yo Honey Singh</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Aashiqui</h2>
+                    <p>Mithoon,Ankit Tiwari,Jeet Gannguli</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e021e63de6489803c2b39e7f8e5" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Love hotel</h2>
+                    <p>leftovermax</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Making Memories</h2>
+                    <p>karan Aujla,lkky</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e025e16168f7e8ff4fb8aace6cf" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Aaj ki Raat(From "Stree 2")</h2>
+                    <p>sachin-Jigar,Amitabh Bhattacharya</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <h2>Yeh Jawaani Hai Deewani</h2>
+                    <p>Pritam</p>
+                </div>
+            </div>
+        </div>
+        <!-- Popular Radio -->
+            <div class="spotifyPlaylist">
+                <div class="flex justify-spacebtw pright">
+                    <h2>Popular radio</h2>
+                <p>see all</p>
+                </div>
+                <div class="cardConatiner">
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en-GB" alt="">
+                        <div class="play"><i class="fa-solid fa-play"></i></div>
+                        
+                        <p>With Sachin-Jigar,Mithhon ,Vishal-..</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB" alt="">
+                        <div class="play"><i class="fa-solid fa-play"></i></div>
+                    
+                        <p>With Karan Anjla,Sidhu Moose Wala</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en-GB" alt="">
+                        <div class="play"><i class="fa-solid fa-play"></i></div>
+                       
+                        <p>With Pritam,Mohit Chauhan,Armaan</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/6DARBhWbfcS9E4yJzcliqQ/en-GB" alt="">
+                        <div class="play"><i class="fa-solid fa-play"></i></div>
+                        
+                        <p>With Anirudh Ravichander,Harris..</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en-GB" alt="">
+                        <div class="play"><i class="fa-solid fa-play"></i></div>
+                       <p>With Diljit Dosanjh,Shubh,Sindhu Moos..</p>
+                       
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7uIbLdzzSEqnX0Pkrb56cR/en-GB" alt="">
+                        <div class="play"><i class="fa-solid fa-play"></i></div>
+                        <p>With Badshan,Guru Randhawa,Diljit</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured Charts -->
+            <div class="spotifyPlaylist">
+                <div class="flex justify-spacebtw pright">
+                    <h2>Featured Charts</h2>
+                <p>see all</p>
+                </div>
+              <div class="cardConatiner">
+                <div class="card">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <p>Your weekly update of the most played</p>
+                </div>
+                <div class="card">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+        
+                    <p>Your weekly update of the most played</p>
+                </div>
+                <div class="card">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                  
+                    <p>Your daily update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <p>Your daily update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <p>Your daily update of the most viral track..</p>
+                </div>
+                <div class="card">
+                    <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <p>Your daily update of the most viral track..</p>
+                </div>
+              </div>
+              </div>
+              <!-- Sportify Playlist -->
+              <div class="spotifyPlaylist">
+                <div class="flex justify-spacebtw pright">
+                    <h2>Spotify Playlist</h2>
+                <p>see all</p>
+                </div>
+              <div class="cardConatiner">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002f706f22d6c4c596096535f35" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                
+                    <p>Relax with these seriously laid-back..</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f000000023909428545db5e34677f01f0" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                  
+                    <p>A mega mix of 75 favourites from the...</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f0000000283da657fca565320e9311863" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                   
+                    <p>Peaceful piano to help you slow dow..</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f000000027dc5028b26eb62f22d31bb1f" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                  
+                    <p>The beat of your drift</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002621ffb987c673f3bda462092" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                
+                    <p>Chill r&b vibes for your moat relaxed..</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67706f00000002ea546f8c6250aa17529644f7" alt="">
+                    <div class="play"><i class="fa-solid fa-play"></i></div>
+                    <p>The hottest 50.Cover:Lady Ganga..</p>
+                </div>
+              </div>
+              </div>
+        
+          <!-- footer of the website -->
+           <div class="footer-right pleft">
+            <div class="flex m-1 " style="margin-bottom: 20px;">
+             <div class="otherLinks  ">
+                <h4>Company</h4>
+                <a href="https://www.spotify.com/in-en/about-us/contact/" >About</a>
+                <a href="https://developer.spotify.com/" >Job</a>
+                <a href="https://newsroom.spotify.com/" >For the record</a>
+             </div>
+             <div class="otherLinks">
+              <h4>Communities</h4>
+              <a href="https://artists.spotify.com/">For Artists</a>
+              <a href="https://developer.spotify.com/">Developers</a>
+              <a href="https://ads.spotify.com/" >Advertising</a>
+              <a href="https://investors.spotify.com/">Investors</a>
+              <a href="https://spotifyforvendors.com/">Vendors</a>
+             </div>
+             <div class="otherLinks">
+                <h4>Useful links</h4>
+                <a href="https://support.spotify.com/" role="link">Support</a>
+                <a href="https://www.spotify.com/in-en/free/">Free Mobile App</a>
+             </div>
+             <div class="otherLinks">
+                <h4>Spotify Plans</h4>
+                <a href="https://www.spotify.com/in-en/premium/?ref=spotifycom_footer_premium_individual">Premium Individual</a>
+                <a href="https://www.spotify.com/in-en/duo/?ref=spotifycom_footer_premium_duo" role="link">Premium Duo</a>
+                <a href="https://www.spotify.com/in-en/family/?ref=spotifycom_footer_premium_family" >Premium Family</a>
+                <a href="https://www.spotify.com/in-en/student/?ref=spotifycom_footer_premium_student">Premium Student</a>
+                <a href="https://www.spotify.com/in-en/free/?ref=spotifycom_footer_free">Spotify Free</a>
+             </div>
+            <div class="flex social-logo">
+                <i class="fa-brands fa-instagram bgBox-2 m-1"></i>
+                <i class="fa-brands fa-twitter bgBox-2 m-1"></i> 
+                <i class="fa-brands fa-facebook bgBox-2 m-1"></i>
+            </div>
+        </div>
+            <div class="bottom items-center  flex p-1">© 2024 Spotify AB</div>
+           </div>
+    </div>
+</div>
+<div class="lower-part flex justify-spacebtw">
+    <div class="written-part">
+        <h1 class="font-style">Preview of Spotify</h1>
+    <p class="font-style-para">Sign up to get unlimited songs and prodcast with occasional ads. No credit card needed.</p>
+    </div>
+    <button class="btn-4 font-style">Sign up for free</button>
+</div>
+  <script src="script.js"></script>  
+</body>
+</html>
