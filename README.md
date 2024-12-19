@@ -8,8 +8,8 @@ https://pratibha-maurya23.github.io/Projects/Currency-Converter/
 https://pratibha-maurya23.github.io/Projects/Netflix-clone/
 <h4>Rock-Paper-Sicssors</h4>
 https://pratibha-maurya23.github.io/Projects/Rock-Paper-Sicssors/
-<h4>Spotify-clone</h4>
-https://pratibha-maurya23.github.io/Projects/Spotify-clone/
+<h4>Spotify Clone</h4>
+https://pratibha-maurya23.github.io/Projects/spotify%20Clone/
 <h4>Tic-Tac-Teo</h4>
 https://pratibha-maurya23.github.io/Projects/Tic-Tac-Teo/
 <h4>Youtube-clone</h4>
