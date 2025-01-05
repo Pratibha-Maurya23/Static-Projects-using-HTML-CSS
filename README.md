@@ -9,7 +9,7 @@ Using Only: HTML,CSS<br>
  https://pratibha-maurya23.github.io/Static-Projects-using-HTML-CSS/Netflix-clone/
 <br>
 <h4>Spotify Clone</h4>
- https://pratibha-maurya23.github.io/Static-Projects-using-HTML-CSS/spotify Clone/
+ https://pratibha-maurya23.github.io/Static-Projects-using-HTML-CSS/Spotify-Clone/
 <br>
 <h4>Youtube-clone</h4>
  https://pratibha-maurya23.github.io/Static-Projects-using-HTML-CSS/Youtube-clone/
