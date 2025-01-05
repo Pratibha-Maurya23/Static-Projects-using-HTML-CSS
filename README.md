@@ -1,16 +1,16 @@
 # Web Development Projects
+<p>This project showcases web pages built using only HTML and CSS, focusing on responsive design, structured layouts, and visually appealing styles without JavaScript or additional frameworks.</p>
 Creator: Pratibha Maurya<br>
-Techincal Approach<br>
-HTML,CSS,Java Script
-<h4>Currency Converter</h4>
-https://pratibha-maurya23.github.io/Projects/Currency-Converter/
-<h4>Netflix Clone</h4>
-https://pratibha-maurya23.github.io/Projects/Netflix-clone/
-<h4>Rock-Paper-Sicssors</h4>
-https://pratibha-maurya23.github.io/Projects/Rock-Paper-Sicssors/
+Using Only: HTML,CSS<br>
+<h4>amazon-clone</h4>
+ https://pratibha-maurya23.github.io/Static-Projects-using-HTML-CSS/amazon-clone/
+<br>
+<h4>Netflix-clone</h4>
+ https://pratibha-maurya23.github.io/Static-Projects-using-HTML-CSS/Netflix-clone/
+<br>
 <h4>Spotify Clone</h4>
-https://pratibha-maurya23.github.io/Projects/spotify%20Clone/
-<h4>Tic-Tac-Teo</h4>
-https://pratibha-maurya23.github.io/Projects/Tic-Tac-Teo/
+ https://pratibha-maurya23.github.io/Static-Projects-using-HTML-CSS/spotify Clone/
+<br>
 <h4>Youtube-clone</h4>
-https://pratibha-maurya23.github.io/Projects/Youtube-clone/
+ https://pratibha-maurya23.github.io/Static-Projects-using-HTML-CSS/Youtube-clone/
+<br>
